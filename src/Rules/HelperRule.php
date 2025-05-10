@@ -2,7 +2,7 @@
 namespace Windsor\Rules;
 
 use Windsor\Capsule\FieldGroup;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class HelperRule
 {

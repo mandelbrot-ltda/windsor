@@ -1,7 +1,7 @@
 <?php
 namespace Windsor\Admin\Exporter;
 
-use Tightenco\Collect\Support\Collection;
+use Illuminate\Support\Collection ;
 
 class MutableFieldCollection extends Collection
 {

@@ -2,7 +2,7 @@
 namespace Windsor\Capsule;
 
 use Windsor\Support\Singleton;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class BlueprintsFactory
 {

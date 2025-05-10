@@ -1,7 +1,7 @@
 <?php
 namespace Windsor\Support;
 
-use Tightenco\Collect\Contracts\Support\Arrayable;
+use Illuminate\Contracts\Support\Arrayable;
 
 class RulesCollector implements Arrayable
 {
@@ -38,7 +38,7 @@ class RulesCollector implements Arrayable
      * Retrieve transformation rules for given type
      *
      * @param string $key Either 'fields' or 'groups'
-     * @return \Tightenco\Collect\Support\Collection|null
+     * @return \Illuminate\Support\Collection |null
      */
     public function get($key)
     {

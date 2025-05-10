@@ -1,7 +1,7 @@
 <?php
 namespace Windsor\Rules\Utilities;
 
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class TransformConditionalLogic
 {

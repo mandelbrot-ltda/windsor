@@ -2,7 +2,7 @@
 namespace Windsor\Capsule;
 
 use Windsor\Support\Fluent;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 use Windsor\Rules\Utilities\TransformConditionalLogic;
 
 class BlueprintBuilder

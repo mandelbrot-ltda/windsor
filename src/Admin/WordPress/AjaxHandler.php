@@ -2,10 +2,10 @@
 namespace Windsor\Admin\WordPress;
 
 use Windsor\Support\Singleton;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 use Windsor\Admin\Exporter\FieldsPacker;
 use Windsor\Admin\Exporter\YamlComposer;
-use Tightenco\Collect\Support\Collection;
+use Illuminate\Support\Collection ;
 use Windsor\Admin\Exporter\FieldGroupsStore;
 
 class AjaxHandler

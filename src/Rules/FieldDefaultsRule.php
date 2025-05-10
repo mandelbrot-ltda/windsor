@@ -1,7 +1,7 @@
 <?php
 namespace Windsor\Rules;
 
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class FieldDefaultsRule
 {

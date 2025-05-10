@@ -2,7 +2,7 @@
 namespace Windsor\Support;
 
 use ArrayAccess;
-use Tightenco\Collect\Contracts\Support\Arrayable;
+use Illuminate\Contracts\Support\Arrayable;
 
 class Config implements Arrayable, ArrayAccess
 {

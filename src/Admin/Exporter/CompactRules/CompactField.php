@@ -1,7 +1,7 @@
 <?php
 namespace Windsor\Admin\Exporter\CompactRules;
 
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class CompactField
 {

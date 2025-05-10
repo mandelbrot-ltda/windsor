@@ -1,7 +1,7 @@
 <?php
 namespace Windsor\Capsule;
 
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 use Windsor\Support\RulesCollector;
 use Windsor\Capsule\BlueprintsFactory;
 

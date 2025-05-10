@@ -1,7 +1,7 @@
 <?php
 namespace Windsor\Admin\WordPress;
 
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 use Windsor\Admin\WordPress\AjaxHandler;
 
 class UiLoader
@@ -106,7 +106,7 @@ class UiLoader
         } else {
             wp_enqueue_style(
                 'windsor-css',
-                get_stylesheet_directory_uri() . '/vendor/jofrysutanto/windsor/frontend/assets/style.css',
+                get_stylesheet_directory_uri() . '/vendor/mandelbrot/windsor/frontend/assets/style.css',
                 [],
                 $this->version,
                 'all'
@@ -129,7 +129,7 @@ class UiLoader
         } else {
             wp_enqueue_script(
                 'windsor-js',
-                get_stylesheet_directory_uri() . '/vendor/jofrysutanto/windsor/frontend/assets/index.js',
+                get_stylesheet_directory_uri() . '/vendor/mandelbrot/windsor/frontend/assets/index.js',
                 array_keys($jsDependencies),
                 $this->version,
                 true

@@ -3,7 +3,7 @@ namespace Windsor\Capsule;
 
 use Windsor\Parser\Finder;
 use Windsor\Support\Config;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 use Windsor\Support\RulesCollector;
 use Windsor\Admin\WordPress\UiLoader;
 
@@ -73,7 +73,7 @@ class Manager
     /**
      * Build and return parsed ACF fields
      *
-     * @return \Tightenco\Collect\Support\Collection
+     * @return \Illuminate\Support\Collection 
      */
     public function build()
     {

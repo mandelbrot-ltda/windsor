@@ -2,7 +2,7 @@
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 use Windsor\Capsule\BlueprintsFactory;
 use Windsor\Parser\Finder;
 use Windsor\Support\Config;

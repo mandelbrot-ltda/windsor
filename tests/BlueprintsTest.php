@@ -1,6 +1,6 @@
 <?php
 
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 final class BlueprintsTest extends BaseTestCase
 {
